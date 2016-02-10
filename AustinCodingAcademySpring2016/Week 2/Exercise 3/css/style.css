@@ -1,19 +1,40 @@
-/*boxes	Width of 500 pixels
 
-image	100% in relation to it's parent
-right box	Have text centered and background color rgb(240,240,240)
-Berries	font color #252b3b and a font size of 1.9em
-paragraph	font color #555 and padding bottom of 20 pixels
-read more	Bold, color #252b3b, border of 2 pixels solid #555, padding all around 5 pixels, and no underline*/
+img {
+    width:100%;
+}
+
+h3 {
+    color:#252b3b;
+    font-size: 1.9em;
+}
 div {
-    
+    width: 500px;
+    height: 400px;
+  
 }
 
 .left {
-
+    float:left;
 }
 
 .right {
-    
-    
+    float:right;
+    background-color: rgb(240,240,240);
 }
+
+.p {
+   color: #555;
+    padding-bottom: 20 pixels; 
+}
+
+.button {
+    padding: 5px;
+    border: 2px solid #555;
+    color: #252b3b;
+    font-weight: bold;
+    width:100px;
+    height: 18px;
+}
+
+
+   
