@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0171C5;
+    width:auto;
+    height: 100px;
+    color:white;
+}
+
+.size {
+    
+}
+
+.left {
+    float:left; 
+    width:50%;
+}
+
+.right {
+    float:right; 
+    width:50%;
+    
+}
+
+.support {
+    background-color:rgb(240,240,240);
+    margin-top:250px;
+}
+
+.footerleft {
+    float:left;
+}
+
+.footerright{
+    float:right;
+}
+
+
