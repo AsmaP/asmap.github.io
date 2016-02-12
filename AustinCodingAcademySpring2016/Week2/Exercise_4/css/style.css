@@ -1,0 +1,71 @@
+/* class selector*/
+
+p {
+    color:orange;
+    font-size:2rem;
+}
+
+p span {
+    color:green;
+    text-decoration: line-through;
+}
+
+em.highlight{
+    background-color: hotpink;
+}
+
+h4.highlight {
+    font-size:3em;
+}
+
+strong.highlight {
+    color:blue;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+/*id selectors*/
+/* #overview > h4 is the first h4. if there were another h4 and you wanted to select both use #overview h4 */
+
+#overview > h4{
+    font-family:monospace;
+}
+
+/*these two # below are the same thing*/
+h4#strategy #strategy{
+    font-stretch:extra-condensed;
+}
+
+/*Descendent selector*/
+#ex4 > section > aside > h4 {
+    color:purple;
+}
+
+/*Child selector - Also known as Child Combinator*/
+#example > article > p{
+    font-size: 10px;
+}
+
+/*psudo-class selector*/
+
+li:hover {
+    color:pink;
+    font-size:50px;
+}
+
+li:nth-child(2) {
+    color:aqua;
+    font-size: 50px;
+}
+
+li:nth-child(3){
+    color:cadetblue;
+    font-family: fantasty;
+}
+
+/* if you choose 
+p:nth-child(2) {
+    color:aqua;
+    font-size: 50px; it would choose ALL the second paragraphs in the body */
