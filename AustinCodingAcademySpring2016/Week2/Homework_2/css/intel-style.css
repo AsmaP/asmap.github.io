@@ -1,40 +1,65 @@
+*{
+    padding:0;
+    margin:0;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+    background-color: #0171C5;
+    height: 150px;
+    color:white;
+    width:100%;
+    padding:10px;
+    
+}
+
 
 body {
     font-family: 'Arial', sans-serif;
+    width:80%;
+    margin-left:10%;
 }
 
-header, main, footer {
+header main footer {
     width: 1024px;
     margin: auto;
 }
 
-!header {
-    background-color: #0071c5;
-    padding: 10px;
-}
-
-header-#h1 {
+h1 {
     font-weight: 100;
     font-size: 60px;
     color: #fff;
+    padding-bottom: 30px;
+    
 }
 
-body.nav-link. {
+body nav-link. {
     color: #fff;
     font-size: 25px;
     margin-right: 15px;
+    padding-top: 10px;
 }
-main < h2 {
-    font-size: 28px;
+ main  aside {
+    font-size: 30px;
     font-weight: 200;
+    background-color: #eee
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 150;
+    padding:15px;
+    margin-left:-15px;
 }
 
 main aside h3 {
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 150;
 }
 
-main > p {
+main p {
     font-size: 16px;
     color: #555;
 }
@@ -44,7 +69,69 @@ body html aside {
     padding: 15px;
 }
 
-**.my-footer {
+.my-footer {
     padding: 15px;
 }
 
+    
+    
+/** {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin-left: 10%;
+}
+
+div {
+    float: left;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.my_header {
+    background-color: #046ABF;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.my_header h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    margin: 50px 0;
+}
+
+.my_header a {
+    display: inline-block;
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.padding_div {
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.text_image > div {
+    width: 50%;
+}
+
+.text_image img {
+    width: 100%;
+}
+
+.text_image h2 {
+    margin-top: 90px;
+}
+
+.gray_bg {
+    background-color: #eee;
+}*/
