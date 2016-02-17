@@ -10,6 +10,7 @@ h3 {
 div {
     width: 500px;
     height: 395px;
+    float: left;
   
 }
 
