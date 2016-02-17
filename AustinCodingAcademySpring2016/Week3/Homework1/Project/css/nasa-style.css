@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/*class something in html as "clearfix"*/
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+body {
+    font-family:sans-serif;
+    font-size:14px;
+    width:850px;
+}
+
+section {
+    padding:10px;
+    background-color: #eee;
+    border: 1px hidden white; 
+    margin-top: 20px;
+    height: 324px; 
+}
+
+.social_media {
+    float:left;
+    padding: 10px 80px 10px 40px;
+    
+}
+
+.office_info {
+     float:left;
+    padding: 10px 80px 10px 40px;
+    
+}
+
+.form {
+     float:left;
+    padding: 10px 40px 10px 80px;
+}
+
+h3 {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.button {
+    padding: 5px;
+    border: 2px solid #555;
+    color: white;
+    background-color: #555;
+    font-weight: bold;
+    width:60px;
+    height: 30px;
+}
+
+#container {
+  height: 450px;
+  width: 850px;
+  position: relative;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  left: 350px;
+  top: 200px;
+}
