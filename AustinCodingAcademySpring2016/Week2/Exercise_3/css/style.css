@@ -9,7 +9,7 @@ h3 {
 }
 div {
     width: 500px;
-    height: 400px;
+    height: 395px;
   
 }
 
@@ -18,7 +18,7 @@ div {
 }
 
 .right {
-    float:right;
+    float:left;
     background-color: rgb(240,240,240);
 }
 
