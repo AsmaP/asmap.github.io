@@ -7,7 +7,7 @@
 }
 
 
-/*class something in html as "clearfix"*/
+/*class something in html as "clearfix" still don't completely understand this one */
 .clearfix:after {
     clear: both;
     content: ".";
@@ -15,13 +15,21 @@
     height: 0;
     line-height: 0;
     visibility: hidden;
+
 }
 
 
+.large {
+    height: 70px;
+}
+
 body {
-    font-family:sans-serif;
+    font-family:Arial, sans-serif;
     font-size:14px;
+    color: #4d4d4d;
     width:850px;
+    line-height:22px;
+    
 }
 
 section {
@@ -34,31 +42,30 @@ section {
 
 .social_media {
     float:left;
-    padding: 10px 80px 10px 40px;
+    padding: 10px 60px 10px 40px;
     
 }
 
 .office_info {
      float:left;
-    padding: 10px 80px 10px 40px;
+    padding: 10px 60px 10px 40px;
     
 }
 
 .form {
      float:left;
-    padding: 10px 40px 10px 80px;
+    padding: 10px 50px 10px 40px;
 }
 
 h3 {
     padding-bottom: 30px;
     font-weight: bold;
+    font-size: 18px;
 }
 
 li {
     list-style-type: none;
 }
-
-
 
 .button {
     padding: 5px;
