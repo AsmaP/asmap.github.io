@@ -42,21 +42,20 @@ div p {
 }
 
 #topcontainer {
-    width:690px;
-    justify-content: space-around;
-    
+    width:780px;
+    height:400px;
     
 }
 
 #left {
+   border: 1px solid black;
+    float:left;
     width:350;
     height:300px;
-    border: 1px solid black;
-    float:left;
 }
 
 #right {
-    float:left;
+    float:right;
 }
 .img {
     width:330px;
