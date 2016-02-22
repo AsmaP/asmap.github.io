@@ -1,0 +1,32 @@
+/*Add CSS rules*/
+*{
+    padding:0;
+    margin:0;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/*class something in html as "clearfix"*/
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+div {
+    width:30%;
+    height:500px;
+    float:left;
+    padding-left: 50px;
+    font-family: sans-serif;
+}
+
+button {
+    border-left: 
+    
+}

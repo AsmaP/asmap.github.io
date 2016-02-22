@@ -7,6 +7,9 @@
 }
 
 
+/*margin top and bottom
+left and right auto*/
+
 /*class something in html as "clearfix" still don't completely understand this one */
 .clearfix:after {
     clear: both;
@@ -29,6 +32,7 @@ body {
     color: #4d4d4d;
     width:850px;
     line-height:22px;
+    
     
 }
 
@@ -77,13 +81,11 @@ li {
     height: 30px;
 }
 
-#container {
-  height: 450px;
-  width: 850px;
-  position: relative;
-}
+
 #image {
   position: absolute;
+     height: 450px;
+  width: 850px;
   left: 0;
   top: 0;
 }
