@@ -52,7 +52,7 @@ div p {
 #left {
     border: 1px solid black;
     float: left;
-    width: 350;
+    width: 350px;
     height: 300px;
 }
 
@@ -67,6 +67,6 @@ div p {
 }
 
 .img1 {
-    width: 80;
-    height: 50;
+    width: 80px;
+    height: 50px;
 }
