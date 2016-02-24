@@ -12,8 +12,6 @@
 }
 */
 
-
-/*class something in html as "clearfix"
 .clearfix:after {
     clear: both;
     content: ".";
@@ -21,7 +19,7 @@
     height: 0;
     line-height: 0;
     visibility: hidden;
-}*/
+}
 
 body {
     font-family: Helvetica, sans-serif;
@@ -53,18 +51,19 @@ div p {
 }
 
 #left {
-    border: 1px solid black;
     float: left;
-    width: 350px;
-    height: 300px;
-    padding-right: 5px;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 #right {
-    float: right;
-    height: 300px;
-    width: 320px;
+    float: left;
     padding: 5px;
+    border: 1px solid black;
+}
+
+.greybackground {
+    background-color: #e3e3e3;
 }
 
 .img {
