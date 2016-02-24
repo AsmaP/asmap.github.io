@@ -89,19 +89,17 @@ div p {
 
 li {
     font-size: 10px;
-    text-decoration: none;
+    list-style: none;
 }
 
 #bottomcontainer {
-    border: 1px solid #e3e3e3;
     display: inline-block;
     width: 780px;
-    height: 400px;
+    height: 200px;
 }
 
 #bottomcontainer div {
     float: left;
     width: 250px;
+    border-right: 1px solid #e3e3e3;
 }
-
-&#9989
