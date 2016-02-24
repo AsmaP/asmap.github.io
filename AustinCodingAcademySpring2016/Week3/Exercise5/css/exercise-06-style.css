@@ -1,33 +1,47 @@
     /*Add CSS rules*/
-
-* {
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-
-/*class something in html as "clearfix"*/
-
-.clearfix:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    line-height: 0;
-    visibility: hidden;
-}
-
-div {
-    width: 30%;
-    height: 500px;
-    float: left;
-    padding-left: 50px;
-    font-family: sans-serif;
-}
-
-button {
-    border-left:
-}
+    
+    * {
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    /*class something in html as "clearfix"*/
+    
+    .clearfix:after {
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+    
+    div {
+        width: 30%;
+        height: 500px;
+        float: left;
+        padding-left: 50px;
+        font-family: sans-serif;
+    }
+    
+    button {
+        border-left:
+    }
+    
+    a {
+        border-top: 1px solid grey;
+        border-right: 2px solid red;
+        border-bottom: 1px solid grey;
+        border-left: 1px solid grey;
+        text-decoration: none;
+        color: black;
+        padding: 3px;
+        float: right;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 11px;
+    }
