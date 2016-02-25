@@ -36,36 +36,51 @@
     text-transform: uppercase;
 }
 
+.large {
+    font-size: 20px;
+}
+
+
+/*second page*/
+
 h1 {
-    font-size: 40px;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 15px;
 }
 
 #uno {
     background-image: url(../img/featured-image-3.jpg);
     background-size: cover;
+    width: 60%;
+    padding: 5%;
+    margin-top: 5%;
 }
 
 #dos {
     background-image: url(../img/featured-image-4.jpg);
     background-size: cover;
     margin-top: 2%;
+    width: 60%;
+    padding: 5%;
+    margin-top: 5%;
 }
 
 #tres {
     background-image: url(../img/featured-image-5.jpg);
     background-size: cover;
-    width: 68%;
+    width: 45%;
     float: left;
-    margin: 8%;
+    margin-top: 5%;
+    margin-left: -5%;
+    padding: 7% 7% 7% 3%;
 }
 
 .opacity > div {
     background-color: rgba (0, 0, 0, .5);
     padding: 50px 20px;
-}
-
-.opacity {
-    width: 100%;
 }
 
 .left {
