@@ -83,7 +83,13 @@ h2 {
     float: left;
     margin-top: 5%;
     margin-left: -7%;
-    padding: 15% 10%;
+    padding: 170px 50px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#tres > div {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 170px 50px;
 }
 
 a {
@@ -109,8 +115,9 @@ a {
     margin-bottom: 3%;
 }
 
-.opacity > div {
+.opacity {
     background-color: rgba (0, 0, 0, .5);
+    padding: 100px 0;
 }
 
 .left {

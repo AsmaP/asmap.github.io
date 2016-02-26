@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Bell;
+    src: url(../fonts/BELL.TTF)
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bell;
+    src: url(../fonts/BELL.TTF)
+}
+
+
+/*class something in html as "clearfix"
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}*/
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: red;
+}
+
+p {
+    font-family: Bell;
+}
