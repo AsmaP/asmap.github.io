@@ -99,6 +99,10 @@ a {
     border: 1px solid white;
 }
 
+.lastparagraph {
+    margin-bottom: 3%;
+}
+
 .opacity > div {
     background-color: rgba (0, 0, 0, .5);
 }
