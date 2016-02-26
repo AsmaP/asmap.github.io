@@ -63,8 +63,32 @@ main > div {
     padding: 200px 0;
 }
 
+.twoboxes > h2 {
+    padding: 5%;
+    font-style: italic;
+    font-weight: 700;
+}
 
-/*
-.firstsection {
-    backgound-image: ;
-}*/
+.two_boxes {
+    width: 100%;
+    padding: 0 2%;
+    text-align: center;
+}
+
+.two_boxes div {
+    float: left;
+}
+
+.two_boxes div:first-child {
+    width: 55%;
+    padding: 2.5%;
+}
+
+.two_boxes div:nth-child(2) {
+    width: 40%;
+    float: left;
+}
+
+.two_boxes img {
+    width: 70%;
+}
