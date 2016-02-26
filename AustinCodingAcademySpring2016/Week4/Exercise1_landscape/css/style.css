@@ -33,6 +33,12 @@
     padding: 100px 0;
 }
 
+.OGbutton {
+    border: 1px solid limegreen;
+    color: white;
+    background-color: limegreen;
+}
+
 .transformers {
     text-transform: uppercase;
 }
