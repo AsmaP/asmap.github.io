@@ -63,10 +63,15 @@ main > div {
     padding: 200px 0;
 }
 
-.twoboxes > h2 {
+.largeheading {
     padding: 5%;
     font-style: italic;
     font-weight: 700;
+    font-size: 30px;
+}
+
+.topheader {
+    padding-top: 60px;
 }
 
 .two_boxes {
@@ -77,6 +82,7 @@ main > div {
 
 .two_boxes div {
     float: left;
+    padding: 50px;
 }
 
 .two_boxes div:first-child {
@@ -93,11 +99,10 @@ main > div {
     width: 70%;
 }
 
-.thirdsection {
-    background-image: url(../img/);
+.thirdsection > div {
+    background-image: url(../img/main1.jpg);
     background-size: cover;
     text-align: center;
-    color: white;
 }
 
 .shop {
