@@ -100,4 +100,6 @@ main > div {
     color: white;
 }
 
-.shop {}
+.shop {
+    float: left;
+}

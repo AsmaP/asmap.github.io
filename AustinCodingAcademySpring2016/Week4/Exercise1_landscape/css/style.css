@@ -65,6 +65,7 @@ h2 {
     width: 80%;
     padding: 23% 15%;
     margin-top: 6%;
+    text-align: center;
 }
 
 #dos {
@@ -74,22 +75,23 @@ h2 {
     width: 80%;
     padding: 23% 15%;
     margin-top: 6%;
+    text-align: center;
 }
 
 #tres {
     background-image: url(../img/featured-image-5.jpg);
-    background-size: cover;
     width: 55%;
+    height: 500px;
     float: left;
     margin-top: 5%;
     margin-left: -7%;
-    padding: 170px 50px;
-    background-color: rgba(0, 0, 0, .5);
 }
 
 #tres > div {
+    height: 100%;
+    width: 100%;
     background-color: rgba(0, 0, 0, .5);
-    padding: 170px 50px;
+    padding: 140px;
 }
 
 a {
@@ -112,12 +114,7 @@ a {
 }
 
 .lastparagraph {
-    margin-bottom: 3%;
-}
-
-.opacity {
-    background-color: rgba (0, 0, 0, .5);
-    padding: 100px 0;
+    margin-bottom: 5%;
 }
 
 .left {
