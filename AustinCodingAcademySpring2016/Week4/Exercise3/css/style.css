@@ -67,7 +67,7 @@ main > div {
     padding: 5%;
     font-style: italic;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .topheader {
@@ -99,10 +99,17 @@ main > div {
     width: 70%;
 }
 
-.thirdsection > div {
+.thirdsection {
     background-image: url(../img/main1.jpg);
     background-size: cover;
     text-align: center;
+}
+
+.thirdsection > div {
+    height: 350px;
+    color: white;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 50px 0;
 }
 
 .shop {
