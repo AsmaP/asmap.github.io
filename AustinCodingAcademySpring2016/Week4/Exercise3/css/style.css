@@ -45,12 +45,6 @@ nav a {
     font-size: .75em;
 }
 
-h1 {
-    font-size: 25px;
-    font-weight: 600;
-    float: left;
-}
-
 main {
     background-image: url(../img/main1.jpg);
     background-size: cover;
@@ -58,9 +52,14 @@ main {
     color: white;
 }
 
+.mainheading {
+    font-size: 30px;
+    padding: 80px;
+}
+
 main > div {
     background-color: rgba(0, 0, 0, .8);
-    padding: 200px 0;
+    padding: 150px 0;
 }
 
 .largeheading {
@@ -113,5 +112,29 @@ main > div {
 }
 
 .shop {
+    margin-left: 40px;
+}
+
+.lipstick {
+    /*    width: 33%;*/
+    height: 500px;
+    /*    float: left;*/
+    /*    padding: 75px;*/
+}
+
+.shopdescription {
     float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.shopdescription p {
+    margin-top: 15px;
+}
+
+a {
+    border: 1px solid pink;
+    background-color: pink;
+    color: white;
+    text-decoration: none;
 }
