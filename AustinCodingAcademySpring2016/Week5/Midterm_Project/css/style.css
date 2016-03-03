@@ -154,6 +154,24 @@ main a {
     color: white;
 }
 
+.quote {
+    width: 50%;
+    text-align: center;
+    margin-left: 160px;
+    line-height: 19px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.shop {
+    margin-left: 230px;
+    border: 1px solid lightcoral;
+    background-color: lightcoral;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
 
 /*
 .subscription > div {
