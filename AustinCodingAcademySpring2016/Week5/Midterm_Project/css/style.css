@@ -130,4 +130,17 @@ main a {
     display: inline-block;
     text-align: center;
     margin-left: 15px;
+    color: #6E6E6E;
 }
+
+
+/*fourth section*/
+
+.featurebox {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.featurebox > p {}
