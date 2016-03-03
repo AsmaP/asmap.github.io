@@ -23,6 +23,7 @@
 
 body {
     width: 100%;
+    font-family: Alegreya, sans-serif;
 }
 
 
@@ -31,7 +32,6 @@ body {
 nav {
     width: 98%;
     padding: 2% 1%;
-    font-family: "Alegreya" sans-serif;
 }
 
 nav li {
@@ -89,16 +89,18 @@ main a {
 .twoboxes {
     padding: 30px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .rightbox p {
     float: left;
-    width: 60%;
     padding-left: 30px;
     text-align: center;
     padding-top: 45px;
     color: #6E6E6E;
     line-height: 20px;
+    width: 60%;
+    margin-left: 5%
 }
 
 .rightbox h3 {
@@ -112,6 +114,7 @@ main a {
 .leftbox {
     float: left;
     margin-left: 30px;
+    width: 30%;
 }
 
 
@@ -143,24 +146,12 @@ main a {
     float: left;
 }
 
-
-/*last section*/
-
-.subscription {
-    background-image: url(../img/subscriptionimage.jpg);
-    background-color: rgba(0, 0, 0, .5);
-    background-size: cover;
-    text-align: center;
-    color: white;
-}
-
 .quote {
     width: 50%;
     text-align: center;
     margin-left: 160px;
     line-height: 19px;
     padding-bottom: 10px;
-    text-transform: uppercase;
 }
 
 .shop {
@@ -173,8 +164,17 @@ main a {
 }
 
 
-/*
-.subscription > div {
+/*last section*/
+
+footer {
+    background-image: url(../img/subscriptionimage.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+footer > div {
     background-color: rgba(0, 0, 0, .5);
 }
-*/
