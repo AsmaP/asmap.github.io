@@ -25,6 +25,9 @@ body {
     width: 100%;
 }
 
+
+/*first section-main */
+
 nav {
     width: 98%;
     padding: 2% 1%;
@@ -73,15 +76,19 @@ main div {
 }
 
 main a {
-    border: 1px solid lightcoral;
-    background-color: lightcoral;
+    border: 1px solid #F08080;
+    background-color: #F08080;
     color: black;
     text-decoration: none;
     padding: 10px;
 }
 
+
+/*Second Section-twoboxes*/
+
 .twoboxes {
     padding: 30px;
+    margin-bottom: 20px;
 }
 
 .rightbox p {
@@ -105,4 +112,22 @@ main a {
 .leftbox {
     float: left;
     margin-left: 30px;
+}
+
+
+/*Third  Section-fourboxes*/
+
+.fourboxes {
+    float: left;
+    background-color: #FAF4F4;
+    margin: 20px 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box {
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
 }
