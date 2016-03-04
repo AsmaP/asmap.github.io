@@ -120,6 +120,7 @@ main a {
 
 .fourboxes {
     float: left;
+    width: 100%;
     background-color: #FAF4F4;
     margin: 20px 0px;
     padding-top: 30px;
@@ -127,12 +128,15 @@ main a {
 }
 
 .box {
-    width: 23%;
+    width: 20%;
     display: inline-block;
     text-align: center;
-    margin-left: 15px;
-    color: #6E6E6E;
+    margin: 2%;
+    color: darkgrey;
+    font-size: 70%;
 }
+
+.fourboxes > h2 {}
 
 
 /*fourth section*/
@@ -164,23 +168,31 @@ main a {
 
 /*last section*/
 
-
-/*
-    .lastboxp {
+.lastbox {
     background-image: url(../img/subscriptionimage.jpg);
     text-align: center;
-*/
-
-
-/*color: white;*/
-
-
-/*width: 100%;*/
-
-
+    color: white;
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-/*
 footer > div {
-    background-color: rgba(0, 0, 0, .5);
-}*/
+    background-color: rgba(0, 0, 0, .8);
+    padding: 75px;
+}
+
+.lastbox p {
+    line-height: 40px;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.lastbox a {
+    border: 1px solid white;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
