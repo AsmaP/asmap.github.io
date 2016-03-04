@@ -9,8 +9,6 @@
 
 /*class something in html as "clearfix"*/
 
-
-/*
 .clearfix:after {
     clear: both;
     content: ".";
@@ -19,7 +17,6 @@
     line-height: 0;
     visibility: hidden;
 }
-*/
 
 body {
     width: 100%;
@@ -167,16 +164,21 @@ main a {
 
 /*last section*/
 
+
 /*
     .lastboxp {
     background-image: url(../img/subscriptionimage.jpg);
     text-align: center;
 */
-    /*color: white;*/
-    /*width: 100%;*/
-    */
-}
 
+
+/*color: white;*/
+
+
+/*width: 100%;*/
+
+
+}
 
 /*
 footer > div {
