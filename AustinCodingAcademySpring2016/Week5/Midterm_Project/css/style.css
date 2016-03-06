@@ -122,9 +122,9 @@ main a {
     float: left;
     width: 100%;
     background-color: #FAF4F4;
-    margin: 20px 0px;
+    margin: 15px 0px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .box {
@@ -132,11 +132,14 @@ main a {
     display: inline-block;
     text-align: center;
     margin: 2%;
-    color: darkgrey;
+    color: gray;
     font-size: 70%;
 }
 
-.fourboxes > h2 {}
+.box >h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 /*fourth section*/
@@ -175,17 +178,17 @@ main a {
     width: 100%;
     height: 350px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 footer > div {
     background-color: rgba(0, 0, 0, .8);
-    padding: 75px;
+    padding: 94px;
 }
 
 .lastbox p {
-    line-height: 40px;
-    font-size: 30px;
+    line-height: 45px;
+    font-size: 25px;
     margin-bottom: 5%;
 }
 
@@ -195,4 +198,5 @@ footer > div {
     text-decoration: none;
     color: white;
     font-size: 25px;
+    text-transform: uppercase;
 }
