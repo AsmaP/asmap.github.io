@@ -28,13 +28,16 @@ main {
     line-height: 20px;
 }
 
+section {
+    width: 100%;
+}
+
 main > div {
     text-align: left;
 }
 
-section div {
-    width: 30%;
-    padding: 10%;
+.secondbox {
+    width: 50%;
     float: left;
 }
 
@@ -48,10 +51,10 @@ section div p {
 }
 
 @media screen and (max-width:700px) {
-    section div {
-        width: 80%;
-    }
     main {
         background-image: url(../img/bg2.jpg);
+    }
+    .secondbox {
+        width: 100%;
     }
 }
