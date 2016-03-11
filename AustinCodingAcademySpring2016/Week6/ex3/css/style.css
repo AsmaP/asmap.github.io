@@ -1,0 +1,43 @@
+.my_header {
+    background-color: azure;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.my_nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkseagreen;
+}
+
+.my_nav ul {
+    color: black;
+    margin: 20px 0;
+    padding-left: 0px;
+}
+
+li a {
+    font-weight: bolder;
+    margin-top: 10px;
+    padding: 3px;
+    color: hotpink;
+}
+
+.my_content {
+    background-color: aquamarine;
+}
+
+.my_content > div {
+    background-color: aliceblue;
+}
+
+img {
+    width: 100%;
+    max-height: 248px;
+}
