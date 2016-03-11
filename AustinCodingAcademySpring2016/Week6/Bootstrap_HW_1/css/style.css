@@ -1,0 +1,11 @@
+main {
+    background-color: aqua;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+}
+
+div {
+    background-color: black;
+    float: left;
+}
