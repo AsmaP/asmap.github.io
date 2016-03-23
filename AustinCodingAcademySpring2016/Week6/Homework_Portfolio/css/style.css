@@ -2,15 +2,28 @@ body {
     font-family: Asap, sans-serif;
 }
 
-nav {
+#mycarousel {
+    max-height: 200px;
+}
+
+img {
+    width: 100%;
+}
+
+my_nav {
     text-align: center;
     background-color: darkgray;
-    color: white;
+    color: black;
     padding-right: 5px;
 }
 
-ul {
+h1 {
+    float: left;
+}
+
+li {
     text-decoration: none;
+    display: inline-block;
     float: right;
 }
 
@@ -21,10 +34,6 @@ ul {
 .call {
     font-size: 35px;
     text-align: center;
-}
-
-.thumbnails {
-    width: 100%;
 }
 
 .footer {
