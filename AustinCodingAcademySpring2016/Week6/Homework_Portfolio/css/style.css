@@ -1,7 +1,34 @@
 body {
+    font-family: Asap, sans-serif;
+}
+
+nav {
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    padding-right: 5px;
+}
+
+ul {
+    text-decoration: none;
+    float: right;
+}
+
+.item {
     width: 100%;
 }
 
-#mycarousel {
-    width: 60%;
+.call {
+    font-size: 35px;
+    text-align: center;
+}
+
+.thumbnails {
+    width: 100%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }

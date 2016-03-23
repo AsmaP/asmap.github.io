@@ -10,6 +10,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <!--My Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
     <!-- My Style -->
     <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,18 +24,23 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
 
         <div class="row">
             <div class="col-xs-12">
-                <div class="topbar">
+                <nav>
                     <h1>AT HOME</h1>
-                </div>
+                    <li>
+                        <ul>About</ul>
+                        <ul>Contact</ul>
+                        <ul>Portfolio</ul>
+                    </li>
+                </nav>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <div id="mycarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -46,7 +53,7 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="img/homedecor.jpg">
+                            <img class="img-responsive" src="img/homedecor.jpg ">
                             <div class="carousel-caption">
                                 <h3>Living Area</h3>
 
@@ -54,7 +61,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="img/homedecor1.jpg">
+                            <img class="img-responsive" src="img/homedecor1.jpg">
                             <div class="carousel-caption">
                                 <h3>Kitchen</h3>
 
@@ -62,7 +69,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="img/homedecor2.jpg">
+                            <img class="img-responsive" src="img/homedecor2.jpg">
                             <div class="carousel-caption">
                                 <h3>Outdoor Space</h3>
 
@@ -84,7 +91,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <div class="search">
                     <form>
                         <input type="text" placeholder="Search..." required>
@@ -92,14 +99,68 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <div class="call">
-                    <h2>Make an Appointment Today!</h2>
-                    <p>Make an Appointment with the home decor specialists at AT HOME! We love working on new and exciting project and we can't wait to hear from you!</p>
+                    <h1>Make an Appointment Today!</h1>
+                    <p>Make an Appointment with the home decor specialists at AT HOME! We love working on new and exciting projects and we can't wait to hear from you!</p>
                 </div>
             </div>
         </div>
+
+        <!--third row-->
+        <div class="row">
+            <div class="col-md-3">
+                <img class="img-responsive" src="img/homedecorside.jpg">
+            </div>
+
+            <div class="thumbnails col-md-9 col-sm-12">
+
+                <div class="col-md-3">
+                    <h3>BATHROOMS</h3>
+                    <p> We love doing rooms and making them look amazing and fantastic and perfect for you!</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>KITCHENS</h3>
+                    <p> We love doing rooms and making them look amazing and fantastic and perfect for you!</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>LIVING ROOMS</h3>
+                    <p> We love doing rooms and making them look amazing and fantastic and perfect for you!</p>
+                </div>
+                <div class="col-md-3">
+                    <h3> BEDROOMS</h3>
+                    <p> We love doing rooms and making them look amazing and fantastic and perfect for you!</p>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <H2>ABOUT US</H2>
+                </div>
+                <div class="col-md-6">
+                    <H2>CONTACT US</H2>
+                </div>
+            </div>
+
+
+        </div>
     </div>
+
+    <footer class="row">
+        <div class="col-xs-12">
+            <p>&copy;AT HOME 2016</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
