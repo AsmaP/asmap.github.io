@@ -1,0 +1,17 @@
+.my_logo {
+    width: 200px;
+}
+
+.my_header {
+    background-color: aliceblue;
+    padding: 10px 0px;
+}
+
+.navbar {
+    background-color: darkblue;
+    color: white;
+}
+
+.my_side {
+    text-align: center;
+}
