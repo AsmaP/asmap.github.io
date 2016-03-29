@@ -6,21 +6,8 @@ img {
     width: 100%;
 }
 
-my_nav {
-    text-align: center;
-    background-color: darkgray;
-    color: black;
-    padding-right: 5px;
-}
-
-h1 {
-    float: left;
-}
-
-li {
-    text-decoration: none;
-    display: inline-block;
-    float: right;
+.navbar {
+    background-color: white;
 }
 
 .item {
@@ -28,19 +15,19 @@ li {
 }
 
 #carousel-example-generic {
-    max-height: 400px;
+    max-height: 300px;
     overflow: hidden;
 }
 
-.call {
+.my_secondsection {
     font-size: 35px;
     text-align: center;
 }
 
-.footer {
+.my_footer {
     background-color: black;
     color: white;
-    text-align: center;
+    padding: 10px;
 }
 
 .my_margins {
