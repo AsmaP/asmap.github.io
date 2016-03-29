@@ -1,48 +1,48 @@
-                        body {
-                            font-family: Asap, sans-serif;
-                        }
-                        
-                        img {
-                            width: 100%;
-                        }
-                        
-                        my_nav {
-                            text-align: center;
-                            background-color: darkgray;
-                            color: black;
-                            padding-right: 5px;
-                        }
-                        
-                        h1 {
-                            float: left;
-                        }
-                        
-                        li {
-                            text-decoration: none;
-                            display: inline-block;
-                            float: right;
-                        }
-                        
-                        .item {
-                            width: 100%;
-                        }
-                        
-                        #carousel-example-generic {
-                            max-height: 400px;
-                            overflow: hidden;
-                        }
-                        
-                        .call {
-                            font-size: 35px;
-                            text-align: center;
-                        }
-                        
-                        .footer {
-                            background-color: black;
-                            color: white;
-                            text-align: center;
-                        }
-                        
-                        .my_margins {
-                            padding: 20px;
-                        }
+body {
+    font-family: Asap, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+my_nav {
+    text-align: center;
+    background-color: darkgray;
+    color: black;
+    padding-right: 5px;
+}
+
+h1 {
+    float: left;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+}
+
+.item {
+    width: 100%;
+}
+
+#carousel-example-generic {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.call {
+    font-size: 35px;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.my_margins {
+    padding: 20px;
+}
