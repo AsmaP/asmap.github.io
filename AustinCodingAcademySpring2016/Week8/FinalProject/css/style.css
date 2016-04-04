@@ -1,3 +1,9 @@
+.my_image {
+ -webkit-filter: blur(10px);
+   
+/*   -webkit-filter:grayscale(50%);*/
+    width:100%;
+}
 
 
 #wrapper {
@@ -62,6 +68,8 @@ color:white;
 }
 
 
+
+/* about section */
 .featurette {
   padding: 120px; /* Vertically center images part 1: add padding above and below text. */
   overflow: hidden; /* Vertically center images part 2: clear their floats. */
@@ -85,3 +93,20 @@ margin-top: -50px;
   letter-spacing: -1px;
 }
 
+.modal-open .modal {
+ background: white;}
+
+.btn-info {
+    color: #333;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-info {
+}
+
+.my_closebutton {
+    color: black;
+    opacity: 1;
+    
+}
