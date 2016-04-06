@@ -7,40 +7,35 @@
 
 
 #wrapper {
-   
-     margin-left: 160px;
     overflow:hidden;
-    height: 650px;  
+    height: 630px;  
   transition: all 0.4s ease 0s;
 }
 
 #sidebar-wrapper {
     line-height: 35px;
-color:white;   
-  margin-left: -250px;
-  left: 250px;
-  width: 250px;
-  background: #333333;
-  position: fixed;
-  height: 100%;
-  overflow-y: auto;
-  z-index: 1000;
-  transition: all 0.4s ease 0s;
+    color: white;
+  width: 20%; 
+    background: #000033;
+    
+    overflow-y: auto;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
 }
 
-#page-content-wrapper {
-  width: 100%;
+
+
+sidebar-nav {
+    /* position: absolute; */
+    top: 0;
+    /* width: 100%; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.sidebar-nav {
-   
-  position: absolute;
-  top: 0;
-  width: 250px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+
+
 .my_footer {
     padding-top: 600px;
     
