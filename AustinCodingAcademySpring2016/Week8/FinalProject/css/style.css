@@ -8,7 +8,9 @@
 
 #wrapper {
    
-  padding-left: 250px;
+     margin-left: 160px;
+    overflow:hidden;
+    height: 650px;  
   transition: all 0.4s ease 0s;
 }
 
@@ -18,7 +20,7 @@ color:white;
   margin-left: -250px;
   left: 250px;
   width: 250px;
-  background: #030336;
+  background: #333333;
   position: fixed;
   height: 100%;
   overflow-y: auto;
