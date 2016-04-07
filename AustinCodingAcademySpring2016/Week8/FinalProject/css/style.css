@@ -1,31 +1,35 @@
-.my_image {
+.my_image_div {
  -webkit-filter: blur(10px);
-   
+   float:left;
 /*   -webkit-filter:grayscale(50%);*/
+    width:80%;
+     overflow:hidden;
+}
+
+.my_img {
     width:100%;
 }
 
-
 #wrapper {
-    overflow:hidden;
-    height: 630px;  
+   
+/*    height: 630px;  */
   transition: all 0.4s ease 0s;
 }
 
 #sidebar-wrapper {
     line-height: 35px;
     color: white;
-  width: 20%; 
+  width: 20%;
     background: #000033;
-    
-    overflow-y: auto;
+    float:left;
+/*    overflow-y: auto;*/
     z-index: 1000;
     transition: all 0.4s ease 0s;
 }
 
 
 
-sidebar-nav {
+.sidebar-nav {
     /* position: absolute; */
     top: 0;
     /* width: 100%; */
